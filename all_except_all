@@ -1,0 +1,6 @@
+Total Population (All States) = 
+CALCULATE(SUM('YourTable'[POPULATION]), ALL('YourTable'[STATE]))
+except...............................
+Total Population (Except State) = 
+CALCULATE(SUM('YourTable'[POPULATION]), ALLEXCEPT('YourTable', 'YourTable'[CITY]))
+
